@@ -1,0 +1,51 @@
+.html {
+  font-size: 10px;
+  font-family: sans-serif;
+ }
+ a{
+   display: block;
+   cursor: pointer;
+ }
+ 
+ .trucks{
+   .truck{
+    .cover-photo, .phone, .mail{
+       display: none;
+     }
+   }
+ }
+
+ .truck{
+  padding: 10px 0;
+
+  a{
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    &:hover{
+      text-decoration: none;
+      color: #000000;
+    }
+  }
+
+  .cover-photo{
+    img{
+      width: 100%;
+    }
+  }
+
+  .info-container{
+    display: flex;
+    align-items: center;
+  }
+
+  .logo{
+    img{
+      width: 100%;
+    }
+  }
+ 
+ }
